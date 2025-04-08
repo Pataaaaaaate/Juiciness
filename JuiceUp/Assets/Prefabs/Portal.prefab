@@ -190,3 +190,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyPrefab: {fileID: 8739221477244553001, guid: fd6ce6b7a50c164478197d51b2b7d369, type: 3}
   EnemyPeriod: 5
+  ennemiApparition: {fileID: 9027514048236820045, guid: effb650189dc5714e9e9801b1cfb3991, type: 3}

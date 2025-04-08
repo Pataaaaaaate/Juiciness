@@ -16,6 +16,10 @@ public class EnemyController : MonoBehaviour
     Vector2 PreviousPlayerDirection;
     Rigidbody2D rb;
     BoxCollider2D col;
+
+    public GameObject deathVFX;
+    public GameObject dmgVFX;
+    //public MeshRenderer ennemi;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -41,6 +45,7 @@ public class EnemyController : MonoBehaviour
         if(Health <= 0)
         {
             Destroy(gameObject);
+            Instantiate(deathVFX, transform.position, Quaternion.identity);
         }
 
         if(Speed <= 0)
@@ -53,6 +58,8 @@ public class EnemyController : MonoBehaviour
     public void GetDamage(float dmg)
     {
         Health -= dmg;
+        Instantiate(dmgVFX, transform.position, Quaternion.identity);
+        //ennemi.material.SetColor("_Color", Color.red);
     }
 
     void RotateTowardsPlayer()

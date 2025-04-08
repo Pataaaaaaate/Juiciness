@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Monteiro Meline\\GITHUB\\Juiciness\\Juiciness\\JuiceUp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|d:\\monteiro meline\\github\\juiciness\\juiciness\\juiceup\\assets\\scripts\\portalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|d:\\monteiro meline\\github\\juiciness\\juiciness\\juiceup\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|d:\\monteiro meline\\github\\juiciness\\juiciness\\juiceup\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PortalManager.cs",
+              "DocumentMoniker": "D:\\Monteiro Meline\\GITHUB\\Juiciness\\Juiciness\\JuiceUp\\Assets\\Scripts\\PortalManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PortalManager.cs",
+              "ToolTip": "D:\\Monteiro Meline\\GITHUB\\Juiciness\\Juiciness\\JuiceUp\\Assets\\Scripts\\PortalManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PortalManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:35:46.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Monteiro Meline\\GITHUB\\Juiciness\\Juiciness\\JuiceUp\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\Monteiro Meline\\GITHUB\\Juiciness\\Juiciness\\JuiceUp\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:32:23.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "D:\\Monteiro Meline\\GITHUB\\Juiciness\\Juiciness\\JuiceUp\\Assets\\Scripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
+              "ToolTip": "D:\\Monteiro Meline\\GITHUB\\Juiciness\\Juiciness\\JuiceUp\\Assets\\Scripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA5wBUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:10:37.891Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
