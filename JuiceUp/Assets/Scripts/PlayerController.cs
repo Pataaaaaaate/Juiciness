@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour
     private bool RotateWithMouseClick = false; // Rotate To The Direction Of The Mouse When Click , Usefull For Attacking
 
     [Header("Jumping")]
-    public float JumpPower = 30; // How High The Player Can Jump
-    public float Gravity = 6; // How Fast The Player Will Pulled Down To The Ground, 6 Feels Smooth
+    public float JumpPower = 250; // How High The Player Can Jump
+    public float Gravity = 3; // How Fast The Player Will Pulled Down To The Ground, 6 Feels Smooth
     public int AirJumps = 1; // Max Amount Of Air Jumps, Set It To 0 If You Dont Want To Jump In The Air
     public LayerMask jumpableLayer; // The Layers That Represent The Ground, Any Layer That You Want The Player To Be Able To Jump In
 
@@ -215,4 +215,8 @@ public class PlayerController : MonoBehaviour
             currentJumps = 0;
         }
     }
+    
+
+
 }
+
