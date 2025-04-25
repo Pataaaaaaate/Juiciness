@@ -42,7 +42,7 @@ public class EnemyController : MonoBehaviour
         rb.linearVelocity = new Vector2(transform.forward.z * DriftFactor * Speed * Time.fixedDeltaTime, rb.linearVelocity.y);
 
         //Die
-        if(Health <= 0)
+        if(Health <= 7) // meurt au boout de 3 coups
         {
             Destroy(gameObject);
             Instantiate(deathVFX, transform.position, Quaternion.identity);

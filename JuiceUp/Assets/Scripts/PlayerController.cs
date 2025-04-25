@@ -5,18 +5,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
-    public float Speed = 450;
+    public float Speed = 1000;
     private bool RotateToDirection = false; // Rotate To The Movement Direction
     private bool RotateWithMouseClick = false; // Rotate To The Direction Of The Mouse When Click , Usefull For Attacking
 
     [Header("Jumping")]
-    public float JumpPower = 250; // How High The Player Can Jump
+    public float JumpPower = 800; // How High The Player Can Jump
     public float Gravity = 3; // How Fast The Player Will Pulled Down To The Ground, 6 Feels Smooth
     public int AirJumps = 1; // Max Amount Of Air Jumps, Set It To 0 If You Dont Want To Jump In The Air
     public LayerMask jumpableLayer; // The Layers That Represent The Ground, Any Layer That You Want The Player To Be Able To Jump In
 
     [Header("Dashing")]
-    public float DashPower = 3; // It Is A Speed Multiplyer, A Value Of 2 - 3 Is Recommended.
+    public float DashPower = 80; // It Is A Speed Multiplyer, A Value Of 2 - 3 Is Recommended.
     public float DashDuration = 0.20f; // Duration Of The Dash In Seconds, Recommended 0.20f.
     public float DashCooldown = 0.5f; // Duration To Be Able To Dash Again.
     public bool AirDash = true; // Can Dash In Air ?
@@ -30,7 +30,10 @@ public class PlayerController : MonoBehaviour
 
     float MoveDirection;
     int currentJumps = 0;
- 
+    bool wasInAir = false;
+
+    private Vector3 originalScale;
+
     Rigidbody2D rb;
     BoxCollider2D col; // Change It If You Use Something Else That Box Collider, Make Sure You Update The Reference In Start Function
 
@@ -42,6 +45,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<BoxCollider2D>();
         rb.gravityScale = Gravity;
+        originalScale = transform.localScale; // garde sa forme originale
 
     }   
     void Update()
@@ -76,6 +80,17 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(Dash());
             }
         }
+
+        // Ici, on vérifie l'état de contact avec le sol
+        bool grounded = InTheGround();
+
+        if (grounded && wasInAir)
+        {
+            StartCoroutine(SquashStretch());
+        }
+
+        // Met à jour le statut pour la frame suivante
+        wasInAir = !grounded;
     }
     void FixedUpdate()
     {
@@ -213,9 +228,21 @@ public class PlayerController : MonoBehaviour
         if (ray.collider != null)
         {
             currentJumps = 0;
+            //StartCoroutine(SquashStretch());
         }
     }
-    
+
+    IEnumerator SquashStretch()
+    {
+        Vector3 squashedScale = new Vector3(originalScale.x * 1.2f, originalScale.y * 0.8f, originalScale.z);
+
+        transform.localScale = squashedScale;
+
+        yield return new WaitForSeconds(0.2f);
+
+        transform.localScale = originalScale;
+    }
+
 
 
 }
