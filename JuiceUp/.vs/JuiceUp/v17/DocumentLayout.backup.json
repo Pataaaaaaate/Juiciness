@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|c:\\users\\melin\\desktop\\github\\juiciness\\juiceup\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,11 @@
       "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|c:\\users\\melin\\desktop\\github\\juiciness\\juiceup\\assets\\scripts\\portalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|c:\\users\\melin\\desktop\\github\\juiciness\\juiceup\\assets\\scripts\\bulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\assets\\scripts\\portalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BulletController.cs",
+              "DocumentMoniker": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\Assets\\Scripts\\BulletController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletController.cs",
+              "ToolTip": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\Assets\\Scripts\\BulletController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:12:23.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PortalManager.cs",
               "DocumentMoniker": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\Assets\\Scripts\\PortalManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PortalManager.cs",
@@ -34,8 +51,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PortalManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:35:46.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T14:35:46.625Z"
             },
             {
               "$type": "Document",
@@ -45,7 +61,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAmwPAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T14:32:23.269Z",
               "EditorCaption": ""
@@ -58,7 +74,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
               "ToolTip": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\Assets\\Scripts\\EnemyController.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwFgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T14:10:37.891Z",
               "EditorCaption": ""

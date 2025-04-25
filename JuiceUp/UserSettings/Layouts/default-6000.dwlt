@@ -346,23 +346,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 20250000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 4e76ffff0078ffff
+      m_SelectedIDs: be74ffff
+      m_LastClickedID: -35650
+      m_ExpandedIDs: 0e75ffffaa77ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Level
-        m_OriginalName: Level
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 38418
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 9}
@@ -938,9 +938,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 7.3922048, y: -0.24755062, z: -0.18449399}
+    m_Target: {x: -12.067312, y: -6.0139136, z: -0.028011579}
     speed: 2
-    m_Value: {x: 7.3922048, y: -0.24755062, z: -0.18449399}
+    m_Value: {x: -12.067312, y: -6.0139136, z: -0.028011579}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -990,9 +990,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 19.360023
+    m_Target: 4.39984
     speed: 2
-    m_Value: 19.360023
+    m_Value: 4.39984
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1246,7 +1246,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1256,16 +1256,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\melin\Desktop\Github\Juiciness\JuiceUp
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 253.33331}
-    m_SelectedIDs: e8950000
-    m_LastClickedID: 38376
-    m_ExpandedIDs: 00000000e0950000e2950000ea990000f099000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 4e9a0000
+    m_LastClickedID: 39502
+    m_ExpandedIDs: 000000001296000014960000389a00003e9a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1326,15 +1326,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c623000046b200000cbf0000ba1c010090b200006af500004adb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Bullet
-      m_OriginalName: Bullet
+      m_Name: Cartoon FX Remaster
+      m_OriginalName: Cartoon FX Remaster
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 34614
+      m_UserData: 39480
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1507,7 +1507,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 852.6666
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

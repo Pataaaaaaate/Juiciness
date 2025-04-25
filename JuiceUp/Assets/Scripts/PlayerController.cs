@@ -16,9 +16,9 @@ public class PlayerController : MonoBehaviour
     public LayerMask jumpableLayer; // The Layers That Represent The Ground, Any Layer That You Want The Player To Be Able To Jump In
 
     [Header("Dashing")]
-    public float DashPower = 80; // It Is A Speed Multiplyer, A Value Of 2 - 3 Is Recommended.
-    public float DashDuration = 0.20f; // Duration Of The Dash In Seconds, Recommended 0.20f.
-    public float DashCooldown = 0.5f; // Duration To Be Able To Dash Again.
+    public float DashPower = 150; // It Is A Speed Multiplyer, A Value Of 2 - 3 Is Recommended.
+    public float DashDuration = 0.50f; // Duration Of The Dash In Seconds, Recommended 0.20f.
+    public float DashCooldown = 0.3f; // Duration To Be Able To Dash Again.
     public bool AirDash = true; // Can Dash In Air ?
 
     [Header("Attacking")]
@@ -36,6 +36,10 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D rb;
     BoxCollider2D col; // Change It If You Use Something Else That Box Collider, Make Sure You Update The Reference In Start Function
+
+
+    public GameObject doubleJumpVFX;
+    public GameObject dashVFX;
 
     ////// START & UPDATE :
 
@@ -104,6 +108,7 @@ public class PlayerController : MonoBehaviour
         if (canMove)
         {
             rb.linearVelocity = new Vector2(MoveDirection * Speed * Time.fixedDeltaTime, rb.linearVelocity.y);
+            
         }
 
     } 
@@ -138,14 +143,21 @@ public class PlayerController : MonoBehaviour
         if (InTheGround())
         {
             rb.linearVelocity = Vector2.up * JumpPower;
+            
+            currentJumps = 0; // Reset le compteur de sauts quand on touche le sol
         }
         else
         {
             if (currentJumps >= AirJumps)
-                return;
+            {
+                currentJumps++;
+                rb.linearVelocity = Vector2.up * JumpPower;
+                Instantiate(doubleJumpVFX, transform.position, Quaternion.identity);
+            }
+                //return;
 
-            currentJumps ++;
-            rb.linearVelocity = Vector2.up * JumpPower;
+            
+           
         }
 
     }
@@ -185,6 +197,7 @@ public class PlayerController : MonoBehaviour
         Speed *= DashPower;
         rb.gravityScale = 0f; // You can delete this line if you don't want the player to freez in the air when dashing
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+        Instantiate(dashVFX, transform.position, Quaternion.identity);
 
         //  You Can Add A Camera Shake Function here
 
