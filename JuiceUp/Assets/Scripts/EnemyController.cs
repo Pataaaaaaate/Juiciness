@@ -19,6 +19,7 @@ public class EnemyController : MonoBehaviour
 
     public GameObject deathVFX;
     public GameObject dmgVFX;
+    public GameObject death2VFX;
     //public MeshRenderer ennemi;
     void Start()
     {
@@ -45,6 +46,7 @@ public class EnemyController : MonoBehaviour
         if(Health <= 7) // meurt au boout de 3 coups
         {
             Destroy(gameObject);
+            Instantiate(death2VFX, transform.position, Quaternion.identity);
             Instantiate(deathVFX, transform.position, Quaternion.identity);
         }
 

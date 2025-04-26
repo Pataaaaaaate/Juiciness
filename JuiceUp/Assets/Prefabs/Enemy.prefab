@@ -180,3 +180,4 @@ MonoBehaviour:
   AccelerationRate: 1
   deathVFX: {fileID: 5985634496115995773, guid: 463cf9f7af4680240898f6aeba3fe3e6, type: 3}
   dmgVFX: {fileID: 1429954232896169633, guid: 83036083a4ebcd34f98131bd3cf6f4d2, type: 3}
+  death2VFX: {fileID: 8194992990867289339, guid: 99bc28c0d45f51c4fbac01080b73edc7, type: 3}

@@ -395,7 +395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5824670795371433373, guid: f6fd568b816c64943a44efc3add3a881, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5824670795371433374, guid: f6fd568b816c64943a44efc3add3a881, type: 3}
       propertyPath: m_LocalScale.x
@@ -831,7 +831,7 @@ PrefabInstance:
     - target: {fileID: 2395141271465665907, guid: 6418ba11f3855654b9a699ab800f1d7e, type: 3}
       propertyPath: ennemiApparition
       value: 
-      objectReference: {fileID: 8771972552311404799, guid: bbf9e36a48d6c5648a13889afab076fd, type: 3}
+      objectReference: {fileID: 1141330259687333427, guid: 6718dc24203da53468af9ada8fef7d6d, type: 3}
     - target: {fileID: 3643463718952647428, guid: 6418ba11f3855654b9a699ab800f1d7e, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -982,6 +982,10 @@ PrefabInstance:
     - target: {fileID: 7696167157940194100, guid: 901506c11712dbc42a0885676fe718b5, type: 3}
       propertyPath: Speed
       value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696167157940194100, guid: 901506c11712dbc42a0885676fe718b5, type: 3}
+      propertyPath: AirDash
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7696167157940194100, guid: 901506c11712dbc42a0885676fe718b5, type: 3}
       propertyPath: dashVFX
