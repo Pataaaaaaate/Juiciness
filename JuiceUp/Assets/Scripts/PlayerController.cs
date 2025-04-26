@@ -10,13 +10,13 @@ public class PlayerController : MonoBehaviour
     private bool RotateWithMouseClick = false; // Rotate To The Direction Of The Mouse When Click , Usefull For Attacking
 
     [Header("Jumping")]
-    public float JumpPower = 800; // How High The Player Can Jump
+    public float JumpPower = 500; // How High The Player Can Jump
     public float Gravity = 3; // How Fast The Player Will Pulled Down To The Ground, 6 Feels Smooth
     public int AirJumps = 1; // Max Amount Of Air Jumps, Set It To 0 If You Dont Want To Jump In The Air
     public LayerMask jumpableLayer; // The Layers That Represent The Ground, Any Layer That You Want The Player To Be Able To Jump In
 
     [Header("Dashing")]
-    public float DashPower = 150; // It Is A Speed Multiplyer, A Value Of 2 - 3 Is Recommended.
+    public float DashPower = 100; // It Is A Speed Multiplyer, A Value Of 2 - 3 Is Recommended.
     public float DashDuration = 0.50f; // Duration Of The Dash In Seconds, Recommended 0.20f.
     public float DashCooldown = 0.3f; // Duration To Be Able To Dash Again.
     public bool AirDash = true; // Can Dash In Air ?
@@ -107,8 +107,22 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
         {
-            rb.linearVelocity = new Vector2(MoveDirection * Speed * Time.fixedDeltaTime, rb.linearVelocity.y);
-            
+            Vector2 velocity = rb.linearVelocity; // <<< Tu copies la vélocité actuelle dans une variable appelée 'velocity'
+
+            if (MoveDirection != 0) // Si le joueur se déplace horizontalement
+            {
+                velocity.x = (MoveDirection * Speed * Time.fixedDeltaTime) + (10f * MoveDirection); // Ajoute +2 de vitesse horizontale
+            }
+            else
+            {
+                velocity = new Vector2(MoveDirection * Speed * Time.fixedDeltaTime, rb.linearVelocity.y);
+                //rb.linearVelocity = new Vector2(MoveDirection * Speed * Time.fixedDeltaTime, rb.linearVelocity.y);
+            }
+
+            rb.linearVelocity = velocity; // reference la  vélocité au Rigidbody
+
+
+
         }
 
     } 
@@ -142,7 +156,7 @@ public class PlayerController : MonoBehaviour
 
         if (InTheGround())
         {
-            rb.linearVelocity = Vector2.up * JumpPower;
+            rb.linearVelocity = Vector2.up * JumpPower * 1.5f;
             
             currentJumps = 0; // Reset le compteur de sauts quand on touche le sol
         }
@@ -151,7 +165,7 @@ public class PlayerController : MonoBehaviour
             if (currentJumps >= AirJumps)
             {
                 currentJumps++;
-                rb.linearVelocity = Vector2.up * JumpPower;
+                rb.linearVelocity = Vector2.up * JumpPower * 1.5f;
                 Instantiate(doubleJumpVFX, transform.position, Quaternion.identity);
             }
                 //return;
@@ -194,7 +208,7 @@ public class PlayerController : MonoBehaviour
         canDash = false;
         float originalSpeed = Speed; 
        
-        Speed *= DashPower;
+        Speed *= DashPower * 2f;
         rb.gravityScale = 0f; // You can delete this line if you don't want the player to freez in the air when dashing
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
         Instantiate(dashVFX, transform.position, Quaternion.identity);
