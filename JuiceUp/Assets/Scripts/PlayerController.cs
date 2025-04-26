@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerController : MonoBehaviour
 {
@@ -41,6 +42,13 @@ public class PlayerController : MonoBehaviour
     public GameObject doubleJumpVFX;
     public GameObject dashVFX;
 
+
+    //public AudioClip dashSound;
+    public AudioSource dashSound;
+    public AudioSource jumpSound;
+
+    
+
     ////// START & UPDATE :
 
     void Start()
@@ -50,6 +58,7 @@ public class PlayerController : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
         rb.gravityScale = Gravity;
         originalScale = transform.localScale; // garde sa forme originale
+        dashSound = GetComponent<AudioSource>();
 
     }   
     void Update()
@@ -70,6 +79,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
+            jumpSound.Play();
         }
 
         // Dashing
@@ -211,6 +221,8 @@ public class PlayerController : MonoBehaviour
         Speed *= DashPower * 2f;
         rb.gravityScale = 0f; // You can delete this line if you don't want the player to freez in the air when dashing
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+        
+        dashSound.Play();
         Instantiate(dashVFX, transform.position, Quaternion.identity);
 
         //  You Can Add A Camera Shake Function here

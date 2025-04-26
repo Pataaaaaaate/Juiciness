@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - FxTemporaire
+  - BulletSond
+  - Audio
   layers:
   - Default
   - TransparentFX

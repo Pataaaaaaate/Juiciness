@@ -16,9 +16,18 @@ public class BulletController : MonoBehaviour
     private float reachThreshold = 0.5f; // Distance à laquelle on considère que la balle est "arrivée"
 
     public GameObject destroyVFX;
+    //public AudioSource bulletSound; // reference au son
+
+    bulletSoundManager bulletSoundManager;  
+    
+    
+        
 
     void Start()
     {
+
+        bulletSoundManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<bulletSoundManager>();
+
         rb = GetComponent<Rigidbody2D>();
 
         rb.gravityScale = 0f;
@@ -36,6 +45,9 @@ public class BulletController : MonoBehaviour
 
     void Update()
     {
+
+        
+
         if (!hasReachedTarget)
         {
             float distanceToTarget = Vector2.Distance(transform.position, targetPosition);
@@ -52,10 +64,17 @@ public class BulletController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.CompareTag("Ground"))
         {
+
             Destroy(gameObject);
+            
             Instantiate(destroyVFX, transform.position, Quaternion.identity);
+            
+            bulletSoundManager.PlaybulletAudioSource(bulletSoundManager.BulletSound);
+            
+
         }
         else if (collision.CompareTag("Enemy"))
         {

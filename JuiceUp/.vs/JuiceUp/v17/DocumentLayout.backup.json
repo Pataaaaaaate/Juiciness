@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|c:\\users\\melin\\desktop\\github\\juiciness\\juiceup\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69B8BCB2-C718-64FB-6C54-3ABEFC324836}|Assembly-CSharp.csproj|C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\assets\\scripts\\portalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\BulletController.cs",
               "ToolTip": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\Assets\\Scripts\\BulletController.cs",
               "RelativeToolTip": "Assets\\Scripts\\BulletController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAA1wDkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwD8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T18:12:23.39Z",
               "EditorCaption": ""
@@ -55,26 +55,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowAUBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAN4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T14:32:23.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\Assets\\Scripts\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
               "ToolTip": "C:\\Users\\melin\\Desktop\\Github\\Juiciness\\JuiceUp\\Assets\\Scripts\\EnemyController.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T14:10:37.891Z",
               "EditorCaption": ""

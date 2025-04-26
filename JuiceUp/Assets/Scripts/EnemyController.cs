@@ -20,9 +20,17 @@ public class EnemyController : MonoBehaviour
     public GameObject deathVFX;
     public GameObject dmgVFX;
     public GameObject death2VFX;
+
+
+    
+    public AudioSource dmgSound;
     //public MeshRenderer ennemi;
+
+    bulletSoundManager bulletSoundManager;
     void Start()
     {
+
+        bulletSoundManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<bulletSoundManager>();
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<BoxCollider2D>();
         Player = GameObject.FindWithTag("Player");
@@ -46,6 +54,7 @@ public class EnemyController : MonoBehaviour
         if(Health <= 7) // meurt au boout de 3 coups
         {
             Destroy(gameObject);
+            bulletSoundManager.PlaydeathAudioSource(bulletSoundManager.DeathSound);
             Instantiate(death2VFX, transform.position, Quaternion.identity);
             Instantiate(deathVFX, transform.position, Quaternion.identity);
         }
@@ -60,6 +69,7 @@ public class EnemyController : MonoBehaviour
     public void GetDamage(float dmg)
     {
         Health -= dmg;
+        dmgSound.Play();
         Instantiate(dmgVFX, transform.position, Quaternion.identity);
         //ennemi.material.SetColor("_Color", Color.red);
     }

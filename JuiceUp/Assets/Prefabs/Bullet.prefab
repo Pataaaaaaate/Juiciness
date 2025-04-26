@@ -143,6 +143,7 @@ MonoBehaviour:
   Velocity: 40
   IsFlipped: 0
   destroyVFX: {fileID: 3432958286849152088, guid: 87ee7299dd44ed747af24dbb91bcd33b, type: 3}
+  bulletSound: {fileID: 0}
 --- !u!50 &-8815445834763433878
 Rigidbody2D:
   serializedVersion: 5
