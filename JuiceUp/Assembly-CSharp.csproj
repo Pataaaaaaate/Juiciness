@@ -73,6 +73,7 @@
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Texts\_Make your own text effect.txt" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
     <None Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
+    <None Include="Assets\Classic Legacy Pack - Village\Documentation\Terms.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
