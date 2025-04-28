@@ -25,7 +25,7 @@ public class PortalManager : MonoBehaviour
 
     private void Update()
     {
-        portal.transform.rotation = Quaternion.Euler(0, 0, -10 * Time.time);
+        //portal.transform.rotation = Quaternion.Euler(0, 0, -10 * Time.time);
     }
 
 

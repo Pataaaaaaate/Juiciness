@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/release' branch; Version is '6000.0.45f1 (d91bd3d4e081) revision 14228435'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 32507 MB
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'fr' Physical Memory: 32456 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Unity.exe
 -name
 AssetImportWorker5
 -projectPath
-C:/Users/melin/Desktop/Github/Juiciness/JuiceUp
+D:/Monteiro Meline/GITHUB/Juiciness/Juiciness/JuiceUp
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-50658
+58225
 -job-worker-count
-11
+9
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/melin/Desktop/Github/Juiciness/JuiceUp
-C:/Users/melin/Desktop/Github/Juiciness/JuiceUp
+Successfully changed project path to: D:/Monteiro Meline/GITHUB/Juiciness/Juiciness/JuiceUp
+D:/Monteiro Meline/GITHUB/Juiciness/Juiciness/JuiceUp
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,13 @@ C:/Users/melin/Desktop/Github/Juiciness/JuiceUp
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [42584]  Target information:
+Player connection [48760]  Target information:
 
-Player connection [42584]  * "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 1283712092 [EditorId] 1283712092 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3687N656) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [48760]  * "[IP] 10.10.60.250 [Port] 0 [Flags] 2 [Guid] 1813417673 [EditorId] 1813417673 [Version] 1048832 [Id] WindowsEditor(7,WE-HTYHTX3-HRU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [42584] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [42584] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [48760] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [48760] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -76,59 +76,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/melin/Desktop/Github/Juiciness/JuiceUp/Assets
+[Subsystems] Discovering subsystems at path D:/Monteiro Meline/GITHUB/Juiciness/Juiciness/JuiceUp/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
     Vendor:   NVIDIA
-    VRAM:     7948 MB
-    Driver:   32.0.15.6094
+    VRAM:     8018 MB
+    Driver:   31.0.15.5241
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002212 seconds.
-- Loaded All Assemblies, in  0.282 seconds
+Registered in 0.003957 seconds.
+- Loaded All Assemblies, in  0.480 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.247 seconds
-Domain Reload Profiling: 528ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.450 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (112ms)
-		LoadAssemblies (97ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (161ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (110ms)
-			TypeCache.Refresh (108ms)
-				TypeCache.ScanAssembly (98ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (167ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (248ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (451ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (220ms)
+		SetupLoadedEditorAssemblies (404ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (116ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,277 +137,100 @@ Domain Reload Profiling: 528ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.451 seconds
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.724 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.380 seconds
-Domain Reload Profiling: 828ms
-	BeginReloadAssembly (130ms)
+- Finished resetting the current domain, in  0.702 seconds
+Domain Reload Profiling: 1423ms
+	BeginReloadAssembly (209ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (253ms)
-		LoadAssemblies (234ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (359ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (99ms)
-			TypeCache.Refresh (78ms)
-				TypeCache.ScanAssembly (67ms)
-			BuildScriptInfoCaches (18ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (380ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (702ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (310ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (209ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2740 unused Assets / (0.7 MB). Loaded Objects now: 3239.
-Memory consumption went from 84.7 MB to 83.9 MB.
-Total: 3.870800 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.113400 ms MarkObjects: 3.087800 ms  DeleteObjects: 0.478900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1446676.262976 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr font AmazGoDaBold.png
-  artifactKey: Guid(7ab74e659e1f0a34d9cfec21c478fc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Misc/cfxr font AmazGoDaBold.png using Guid(7ab74e659e1f0a34d9cfec21c478fc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9520f89b8e24bfe8428eff714643ce5') in 0.2372793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
-
-========================================================================
-Received Import Request.
-  Time since last request: 540.354916 seconds.
-  path: Packages/com.unity.2d.common/Path/Editor/Handles/TangentLinearPro.png
-  artifactKey: Guid(5315c047999aa4d869298f6988dfeb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.common/Path/Editor/Handles/TangentLinearPro.png using Guid(5315c047999aa4d869298f6988dfeb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0ba77853457edc107c59aec880dd059') in 0.0218459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.207649 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.BrushPicks@2x.png
-  artifactKey: Guid(7befde712044bf34d8d765aba01a52c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.BrushPicks@2x.png using Guid(7befde712044bf34d8d765aba01a52c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e0d39b89bfb6fd71fb7b0af97a4b088') in 0.0173477 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.092822 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusGrid@4x.png
-  artifactKey: Guid(a1bd3db90f5f7314e822ba2e38f901c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusGrid@4x.png using Guid(a1bd3db90f5f7314e822ba2e38f901c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f57dee6cb5eb2fe2708c4c6d0dc737b8') in 0.0221584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.343686 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusTilemap@2x.png
-  artifactKey: Guid(6b80cdd1d5ce20c4189553f129f4d175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.FocusTilemap@2x.png using Guid(6b80cdd1d5ce20c4189553f129f4d175) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '921ec5f984daa5c304bde32f565f7142') in 0.019535 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037723 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint.png
-  artifactKey: Guid(1915f55bbb9484044b7829d1df0b4abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint.png using Guid(1915f55bbb9484044b7829d1df0b4abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8abaabd5a3fff9e0e139a05de8ebff6') in 0.0209325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.041456 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint@4x.png
-  artifactKey: Guid(c54623997d885f6499655af6031a3bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.GridPaint@4x.png using Guid(c54623997d885f6499655af6031a3bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6984e955a0d1912313ec98ae1c791cdd') in 0.0246622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.182004 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowGrid@4x.png
-  artifactKey: Guid(b375422385f769844a35ff7743e8f1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowGrid@4x.png using Guid(b375422385f769844a35ff7743e8f1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40d05fd2bc31ffbfb20b1f69dbdf92cb') in 0.0181215 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034433 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette@2x.png
-  artifactKey: Guid(d88e25b75a7927f4683afb6c74b05a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.ShowTilePalette@2x.png using Guid(d88e25b75a7927f4683afb6c74b05a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '223ac7d8ea40778d83bdcbf08a246a33') in 0.0188501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040463 seconds.
-  path: Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette.png
-  artifactKey: Guid(a605ef4315d43d6438e211f589d2df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap/Editor/Icons/Tilemap.TilePalette.png using Guid(a605ef4315d43d6438e211f589d2df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10d954cf52771e8b6b5e40c312f93676') in 0.01819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 354.135659 seconds.
-  path: Assets/Stomper Artwork/PixelArt/environment/spike-block.png
-  artifactKey: Guid(4dcb185a9fc2e4239aac5033780c410a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stomper Artwork/PixelArt/environment/spike-block.png using Guid(4dcb185a9fc2e4239aac5033780c410a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80637b5c79ee655cb4cd6b336ceb4197') in 0.0241804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Stomper Artwork/PixelArt/environment/spikes.png
-  artifactKey: Guid(2739108c49f9a4ecf84fac4e1d8857ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stomper Artwork/PixelArt/environment/spikes.png using Guid(2739108c49f9a4ecf84fac4e1d8857ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deccdae4342f526bcd0db3f72d090532') in 0.0193473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.351385 seconds.
-  path: Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire2.png
-  artifactKey: Guid(5894857e771d549c895d6fe6e9523f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire2.png using Guid(5894857e771d549c895d6fe6e9523f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd94deb0152d96cce44c062c83074d1fe') in 0.0226524 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire3.png
-  artifactKey: Guid(a54110f92cafc4b25a77330eccaa0c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stomper Artwork/PixelArt/environment/zaphire/zaphire3.png using Guid(a54110f92cafc4b25a77330eccaa0c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23a8768556fa9da5a7111cb1075c818a') in 0.0148063 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.030284 seconds.
-  path: Assets/Stomper Artwork/PixelArt/environment/layers/plant.png
-  artifactKey: Guid(e4bcfee496ffb4440818ea66a48e4e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stomper Artwork/PixelArt/environment/layers/plant.png using Guid(e4bcfee496ffb4440818ea66a48e4e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8e5cb1c60c79d157d1dcb533fcba4d9') in 0.020293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Stomper Artwork/PixelArt/environment/layers/slime-block.png
-  artifactKey: Guid(98bfa39c86e1b48d2a1a7e9b656269fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stomper Artwork/PixelArt/environment/layers/slime-block.png using Guid(98bfa39c86e1b48d2a1a7e9b656269fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '002bf8e4019380111441ba15a235b608') in 0.0271406 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.712114 seconds.
-  path: Assets/Stomper Artwork/PixelArt/environment/Back animated/back-animated2.png
-  artifactKey: Guid(658ad0f09bbb147f9a23271d119d91b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stomper Artwork/PixelArt/environment/Back animated/back-animated2.png using Guid(658ad0f09bbb147f9a23271d119d91b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13da635ae662202a26fef4408051cd60') in 0.0235782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.277 seconds
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.485 seconds
-Domain Reload Profiling: 4758ms
-	BeginReloadAssembly (637ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (216ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (3384ms)
-		LoadAssemblies (3836ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (90ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (79ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (485ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (380ms)
+		SetupLoadedEditorAssemblies (579ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (252ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2738 unused Assets / (0.6 MB). Loaded Objects now: 3376.
-Memory consumption went from 85.7 MB to 85.1 MB.
-Total: 5.281500 ms (FindLiveObjects: 0.299600 ms CreateObjectMapping: 0.142600 ms MarkObjects: 4.179800 ms  DeleteObjects: 0.657600 ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2740 unused Assets / (0.6 MB). Loaded Objects now: 3239.
+Memory consumption went from 82.6 MB to 82.0 MB.
+Total: 4.027500 ms (FindLiveObjects: 0.218200 ms CreateObjectMapping: 0.148400 ms MarkObjects: 3.095300 ms  DeleteObjects: 0.564600 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 314.879610 seconds.
-  path: Assets/Sprite/boule pics.png
-  artifactKey: Guid(0f4f2c579a75d3144b333d6cb4dbb97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/boule pics.png using Guid(0f4f2c579a75d3144b333d6cb4dbb97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '271a934bfddb19d07c346eb2095dd8b9') in 0.1037396 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 261931.027807 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab hdr.mat
+  artifactKey: Guid(a6b83a8798dc3f748822ba3b239a8728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab hdr.mat using Guid(a6b83a8798dc3f748822ba3b239a8728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3336081a64e020dc10eee5fccd312af') in 0.2975515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3 ab.mat
+  artifactKey: Guid(0ab14112d95c069419bd90ef39fba9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris unlit 3x3 ab.mat using Guid(0ab14112d95c069419bd90ef39fba9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6fe64a3e8618802e24450458af81231') in 0.0535819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit normal.mat
+  artifactKey: Guid(84d4cc499ffaa5940975f7aba4fcbb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 ab lit normal.mat using Guid(84d4cc499ffaa5940975f7aba4fcbb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '159a464513ceb95d60b6b226325b8e23') in 0.1225827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Sprite/Rocket bullet.png
-  artifactKey: Guid(1a816538bbeb2414c94948c048c0ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Rocket bullet.png using Guid(1a816538bbeb2414c94948c048c0ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '638f4192c4aab6dbe04bf60d11fa9cd6') in 0.0196591 seconds
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr perlin big.png
+  artifactKey: Guid(1022ad40a4a391c40831e109fe789c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr perlin big.png using Guid(1022ad40a4a391c40831e109fe789c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2737998e82e6640202ba69a4439f316') in 0.0195078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr petal pink x4 ab lit normal.mat
+  artifactKey: Guid(b8466bb13bf17094d8bf1afdc8e05072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr petal pink x4 ab lit normal.mat using Guid(b8466bb13bf17094d8bf1afdc8e05072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cea91a0b4f8a52445268b364460ccf71') in 0.0926187 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 780.478916 seconds.
-  path: Assets/Prefabs/CFXR2 Ground Hit Variant.prefab
-  artifactKey: Guid(fda468fb94d635e4f8d665304be53549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CFXR2 Ground Hit Variant.prefab using Guid(fda468fb94d635e4f8d665304be53549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ea791b3918915e0569da1a7ea6f4e87') in 0.2184989 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
+  Time since last request: 20.475328 seconds.
   path: Assets/Prefabs/Player.prefab
   artifactKey: Guid(901506c11712dbc42a0885676fe718b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(901506c11712dbc42a0885676fe718b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ef5616576e8e4ebf4a3a52ea240955d') in 0.0074798 seconds
+Start importing Assets/Prefabs/Player.prefab using Guid(901506c11712dbc42a0885676fe718b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a58688aeaf89c6214ede1a553d7888f8') in 0.0342474 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Prefabs/Portal.prefab
-  artifactKey: Guid(6418ba11f3855654b9a699ab800f1d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Portal.prefab using Guid(6418ba11f3855654b9a699ab800f1d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3579bae38e258e0dae4455c118b13b50') in 0.0370622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 114
-
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
