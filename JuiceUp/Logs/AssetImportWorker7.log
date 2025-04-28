@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/release' branch; Version is '6000.0.45f1 (d91bd3d4e081) revision 14228435'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 32507 MB
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'fr' Physical Memory: 32456 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.45f1\Editor\Unity.exe
 -name
 AssetImportWorker7
 -projectPath
-C:/Users/melin/Desktop/Github/Juiciness/JuiceUp
+D:/Monteiro Meline/GITHUB/Juiciness/Juiciness/JuiceUp
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-50658
+58225
 -job-worker-count
-11
+9
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/melin/Desktop/Github/Juiciness/JuiceUp
-C:/Users/melin/Desktop/Github/Juiciness/JuiceUp
+Successfully changed project path to: D:/Monteiro Meline/GITHUB/Juiciness/Juiciness/JuiceUp
+D:/Monteiro Meline/GITHUB/Juiciness/Juiciness/JuiceUp
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,13 @@ C:/Users/melin/Desktop/Github/Juiciness/JuiceUp
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [53064]  Target information:
+Player connection [64248]  Target information:
 
-Player connection [53064]  * "[IP] 192.168.1.87 [Port] 0 [Flags] 2 [Guid] 893287278 [EditorId] 893287278 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3687N656) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [64248]  * "[IP] 10.10.60.250 [Port] 0 [Flags] 2 [Guid] 3870877456 [EditorId] 3870877456 [Version] 1048832 [Id] WindowsEditor(7,WE-HTYHTX3-HRU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [53064] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [53064] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 11
+Player connection [64248] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [64248] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -76,59 +76,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 305.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.45f1 (d91bd3d4e081)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/melin/Desktop/Github/Juiciness/JuiceUp/Assets
+[Subsystems] Discovering subsystems at path D:/Monteiro Meline/GITHUB/Juiciness/Juiciness/JuiceUp/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
     Vendor:   NVIDIA
-    VRAM:     7948 MB
-    Driver:   32.0.15.6094
+    VRAM:     8018 MB
+    Driver:   31.0.15.5241
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002576 seconds.
-- Loaded All Assemblies, in  2.340 seconds
+Registered in 0.003032 seconds.
+- Loaded All Assemblies, in  0.423 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.270 seconds
-Domain Reload Profiling: 2608ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.358 seconds
+Domain Reload Profiling: 779ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (334ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (1857ms)
-		LoadAssemblies (98ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (143ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1854ms)
-			TypeCache.Refresh (1853ms)
-				TypeCache.ScanAssembly (1843ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (146ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (270ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (358ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (242ms)
+		SetupLoadedEditorAssemblies (315ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,72 +137,836 @@ Domain Reload Profiling: 2608ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.621 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.667 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.414 seconds
-Domain Reload Profiling: 1033ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.601 seconds
+Domain Reload Profiling: 1265ms
+	BeginReloadAssembly (187ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (417ms)
-		LoadAssemblies (244ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (336ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (256ms)
-			TypeCache.Refresh (232ms)
-				TypeCache.ScanAssembly (71ms)
-			BuildScriptInfoCaches (19ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (414ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (103ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (601ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (340ms)
+		SetupLoadedEditorAssemblies (488ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (227ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2740 unused Assets / (423.9 KB). Loaded Objects now: 3239.
-Memory consumption went from 82.8 MB to 82.4 MB.
-Total: 5.281300 ms (FindLiveObjects: 0.227800 ms CreateObjectMapping: 0.184500 ms MarkObjects: 4.097800 ms  DeleteObjects: 0.769900 ms)
+Unloading 2740 unused Assets / (0.6 MB). Loaded Objects now: 3239.
+Memory consumption went from 82.6 MB to 82.0 MB.
+Total: 3.975100 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.148000 ms MarkObjects: 3.134100 ms  DeleteObjects: 0.482500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1448781.033782 seconds.
-  path: Assets/Stomper Artwork/PixelArt/Flying Enemy/flying2.png
-  artifactKey: Guid(bf121ccba8350407587d45091767cac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stomper Artwork/PixelArt/Flying Enemy/flying2.png using Guid(bf121ccba8350407587d45091767cac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e298827bb2437b89ae8ae0145e5c7a4') in 0.101651 seconds
+  Time since last request: 263665.377383 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Fx/jump-dust/Jump-dust3.png
+  artifactKey: Guid(aa58e6126e969499cb75e95778ea7723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Fx/jump-dust/Jump-dust3.png using Guid(aa58e6126e969499cb75e95778ea7723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e9e40f57a523073a573566676b8ea4c') in 0.1331148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.427348 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Fx/land-dust/land-dust3.png
+  artifactKey: Guid(f24487d2f5299431c9d1a003953e656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Fx/land-dust/land-dust3.png using Guid(f24487d2f5299431c9d1a003953e656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e24d109130b91b52ce2e8a6c626348e') in 0.0194944 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Stomper Artwork/PixelArt/Flying Enemy/flying3.png
-  artifactKey: Guid(1ff01ae5922a449e99a2cc9a5a4a17e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stomper Artwork/PixelArt/Flying Enemy/flying3.png using Guid(1ff01ae5922a449e99a2cc9a5a4a17e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e06b88511d96608d110dc08eeb229bc') in 0.0166584 seconds
+  path: Assets/Stomper Artwork/PixelArt/Misc/Fx/land-dust/land-dust4.png
+  artifactKey: Guid(28238885704ac498d944c8763632f85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Fx/land-dust/land-dust4.png using Guid(28238885704ac498d944c8763632f85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '331c47af6f55a90ac56c0c3c8018e575') in 0.0127887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.186333 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Fx/stomp-dust/stomp-dust3.png
+  artifactKey: Guid(a3a42a558f4604919a7abded0932cefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Fx/stomp-dust/stomp-dust3.png using Guid(a3a42a558f4604919a7abded0932cefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53975978f65410a64d84ada1acb40526') in 0.0471949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Fx/stomp-dust/stomp-dust4.png
+  artifactKey: Guid(13c13eac6d42f4b72af6da79b2a4903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Fx/stomp-dust/stomp-dust4.png using Guid(13c13eac6d42f4b72af6da79b2a4903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '003bd568ce2402576bf32e0ad91afd5f') in 0.0966944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.194550 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Misc/Fx/walk-dust/walk-dust3.png
+  artifactKey: Guid(aa9fd51ddc0544a6bb8917ee1b7e9e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Misc/Fx/walk-dust/walk-dust3.png using Guid(aa9fd51ddc0544a6bb8917ee1b7e9e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19df320b58f90654f8c65258634f878f') in 0.0245052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.373287 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy/stunt2.png
+  artifactKey: Guid(5596d62520e7c4958bc550449f85b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy/stunt2.png using Guid(5596d62520e7c4958bc550449f85b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce326490418e882e3e6eaeb74025c5bc') in 0.0290302 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Stomper Artwork/PixelArt/Flying Enemy/flying4.png
-  artifactKey: Guid(6efa9a945fa88437a9e787a53237d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stomper Artwork/PixelArt/Flying Enemy/flying4.png using Guid(6efa9a945fa88437a9e787a53237d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b54299174389daad701afc42fe295328') in 0.020409 seconds
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy/walk1.png
+  artifactKey: Guid(46f589260df374ebf86d73ab0c0b11b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy/walk1.png using Guid(46f589260df374ebf86d73ab0c0b11b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10ee7e9209cf325237b0de412417835d') in 0.013829 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 3.432406 seconds.
+  path: Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small4.png
+  artifactKey: Guid(039d677392d4f40498b5187a75bab0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stomper Artwork/PixelArt/Walking Enemy Small/walker-small4.png using Guid(039d677392d4f40498b5187a75bab0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36e381deffe92517c24172413ac5f7ea') in 0.0175451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.666781 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_3.asset
+  artifactKey: Guid(1d784a7cd1f618c4882b9a436237298c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_3.asset using Guid(1d784a7cd1f618c4882b9a436237298c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9978a6b7fbf628183e5bbc2998832312') in 0.0197335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_9.asset
+  artifactKey: Guid(bead6569cdac63f43a33c768a977295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_9.asset using Guid(bead6569cdac63f43a33c768a977295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b3bdc8ec5c3ccafec24be898fe74069') in 0.012142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_25.asset
+  artifactKey: Guid(b460c301853d01f458a3334847a7dfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_25.asset using Guid(b460c301853d01f458a3334847a7dfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dff89b31393589d84e6cd68ac503c366') in 0.0105214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_35.asset
+  artifactKey: Guid(90e8923e73bfd3d46afd6c40ab72a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_35.asset using Guid(90e8923e73bfd3d46afd6c40ab72a4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f330bb891a1516af9bb8517e02df307') in 0.0117848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_29.asset
+  artifactKey: Guid(13ad9519ef0a72c429ba2535f6a5d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_29.asset using Guid(13ad9519ef0a72c429ba2535f6a5d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44429fb5aa1ffb2ee8beba4849f7ffd0') in 0.0121744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_16.asset
+  artifactKey: Guid(22fd788d1941cbf40a8b05fe0f21da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_16.asset using Guid(22fd788d1941cbf40a8b05fe0f21da26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cd14383d304a6cdf8e713a45c65cd6c') in 0.0123596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_38.asset
+  artifactKey: Guid(8f93476de64d5e5498d15f93e6c034af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_38.asset using Guid(8f93476de64d5e5498d15f93e6c034af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeb9c4c30e468c3c77107f1584d6adaf') in 0.0118149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_15.asset
+  artifactKey: Guid(f5d61d1a390434146b76d3b6dc8d1549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_15.asset using Guid(f5d61d1a390434146b76d3b6dc8d1549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d3245c851039db577f4c6567fdff317') in 0.0122323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_28.asset
+  artifactKey: Guid(2967d44654978594096c037a2c20b481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_28.asset using Guid(2967d44654978594096c037a2c20b481) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f1cc1015013f01250861e55951454f9') in 0.005424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_8.asset
+  artifactKey: Guid(e0a5299b82c73294995d2c7b08bb15c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_8.asset using Guid(e0a5299b82c73294995d2c7b08bb15c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3e90297d2a66ba241fcc05fe2837dfb') in 0.0123882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_5.asset
+  artifactKey: Guid(93a9f2dd28d212c49837aa32b9877746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_5.asset using Guid(93a9f2dd28d212c49837aa32b9877746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3701cc4e48b3a5401057668cc5eef509') in 0.0121962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.844061 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_44.asset
+  artifactKey: Guid(202511c3053bd514abcead7bd80941c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_44.asset using Guid(202511c3053bd514abcead7bd80941c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02da572e434ebf55ee12621dd8556352') in 0.0158934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_50.asset
+  artifactKey: Guid(19533ea9adcedd249a445466178b5097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_50.asset using Guid(19533ea9adcedd249a445466178b5097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '228802fbc126c9cfd2fefdcf8fa65f39') in 0.0138235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.279718 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_54.asset
+  artifactKey: Guid(64cb4f39883e6794eb7dfe6211f23c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_54.asset using Guid(64cb4f39883e6794eb7dfe6211f23c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff68324269202198861610737935239a') in 0.0157044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_60.asset
+  artifactKey: Guid(1c7ac193bb2df5d48a37e9c86ea9382d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_60.asset using Guid(1c7ac193bb2df5d48a37e9c86ea9382d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e66b8604c76046e6fa01ea3d9c917f75') in 0.012539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_58.asset
+  artifactKey: Guid(ecdc526d0d013cb4588bdbc217a83242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_58.asset using Guid(ecdc526d0d013cb4588bdbc217a83242) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b745a9c12a44677602f3e2c5ebac8aed') in 0.0110439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_65.asset
+  artifactKey: Guid(12dd814be343a9b4fb4b83d9ab9488de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_65.asset using Guid(12dd814be343a9b4fb4b83d9ab9488de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18ee9962b7e1766f72f8b8b1687a13ea') in 0.0103887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_67.asset
+  artifactKey: Guid(d2d1eedf5db88e9408664c1ff2565294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_67.asset using Guid(d2d1eedf5db88e9408664c1ff2565294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4c18a30d77d408a38d0241dd841091c') in 0.0130545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.306306 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_74.asset
+  artifactKey: Guid(850fe8aa512fa2e41bb1f097edae6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_74.asset using Guid(850fe8aa512fa2e41bb1f097edae6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b8548adf2661093c1904bbe8bbf9a5f') in 0.0168592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_78.asset
+  artifactKey: Guid(fc7f70d7d26515f439c3610501e29267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_78.asset using Guid(fc7f70d7d26515f439c3610501e29267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41ed0f2a8f6d32b484f6aa28c7452d18') in 0.0124955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.320732 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_84.asset
+  artifactKey: Guid(4467013acc0ef834c8bcebb234be37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_84.asset using Guid(4467013acc0ef834c8bcebb234be37c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9d13972f526f57749f88b183fd11da7') in 0.0121602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_89.asset
+  artifactKey: Guid(80a315af19a1ded4baf7eb4929f0f08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_89.asset using Guid(80a315af19a1ded4baf7eb4929f0f08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5235406e070a10a51b5f30e917d85050') in 0.0120926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020132 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_94.asset
+  artifactKey: Guid(2f36a42564b816042be97bb00424effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_94.asset using Guid(2f36a42564b816042be97bb00424effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '578cf805dc762646217983bf4518baf8') in 0.0053279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_99.asset
+  artifactKey: Guid(bf3ca4fdff2e29a4182c9482240d8026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_99.asset using Guid(bf3ca4fdff2e29a4182c9482240d8026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3b234a5db330edc943acae90e3eca1c') in 0.0116946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_96.asset
+  artifactKey: Guid(f4d427ac68fbb4c41987f4625136d4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_96.asset using Guid(f4d427ac68fbb4c41987f4625136d4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2b8d1281ca57136cc3a4538700365ad') in 0.0050235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.272079 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_104.asset
+  artifactKey: Guid(b46b7c4559e09954cb2dd0c77c4d6d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_104.asset using Guid(b46b7c4559e09954cb2dd0c77c4d6d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1551bbfccc4ab672e3a62ef964bc48d') in 0.0143274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_108.asset
+  artifactKey: Guid(38e7f8a6fe38b1f418d212813904cbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_108.asset using Guid(38e7f8a6fe38b1f418d212813904cbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2d1344ccff59016b0144c3d462e619a') in 0.0114362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015862 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_114.asset
+  artifactKey: Guid(68fec9737724f0c48822b096e13c8155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_114.asset using Guid(68fec9737724f0c48822b096e13c8155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38c3f67182abf68a517a932a50888aaf') in 0.0122847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_118.asset
+  artifactKey: Guid(22eb983e0876d8a4bac7059e49ae8e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_118.asset using Guid(22eb983e0876d8a4bac7059e49ae8e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83281fbc8f8ec4ce0986f40e79317af8') in 0.0135203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_125.asset
+  artifactKey: Guid(56ab733ba3f6754408520b7bf533ee45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_125.asset using Guid(56ab733ba3f6754408520b7bf533ee45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48580949c2340232720ad21178216918') in 0.0123883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_124.asset
+  artifactKey: Guid(749aa2a626b9229499bca1c959085ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_124.asset using Guid(749aa2a626b9229499bca1c959085ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5abb225b28ab1bca11f9218b73f1eb8b') in 0.0084746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_121.asset
+  artifactKey: Guid(0dc4042339211334d88ef06ba432c3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_121.asset using Guid(0dc4042339211334d88ef06ba432c3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c86c5dd2926335daa4ee2439dee3abfe') in 0.0123708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.307919 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_134.asset
+  artifactKey: Guid(aa2d53ba976676c42956d6a4505aa9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_134.asset using Guid(aa2d53ba976676c42956d6a4505aa9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '065264d961da8ffa332415e1ecf33b90') in 0.0159648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_143.asset
+  artifactKey: Guid(14ca752d00dcd6a4b9aff015c8f8d52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_143.asset using Guid(14ca752d00dcd6a4b9aff015c8f8d52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbfe9b42aa2ecf25c696b70b0bea8c9b') in 0.0131766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_149.asset
+  artifactKey: Guid(40455ba486604d44087f8f0a07370e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_149.asset using Guid(40455ba486604d44087f8f0a07370e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9337e4b0ad0d4e2e781c4fb1eaf2bfb4') in 0.0113474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_135.asset
+  artifactKey: Guid(894ab44c3b5db14498b38b3a28ac8132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_135.asset using Guid(894ab44c3b5db14498b38b3a28ac8132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d804d9c9c470e9f48fd00b0d4ef3ac5') in 0.0137669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_140.asset
+  artifactKey: Guid(8fb1179a318c9854f8768bfb2eccd2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_140.asset using Guid(8fb1179a318c9854f8768bfb2eccd2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '026882cb5fce2b086ee1b5cf9eb23e8c') in 0.0126603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003672 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_154.asset
+  artifactKey: Guid(a920ec7a8f9e37049ae102393196dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_154.asset using Guid(a920ec7a8f9e37049ae102393196dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34e265abf7070dfe16943886e41d8d71') in 0.0161393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_160.asset
+  artifactKey: Guid(9f55e60ccde37d740a4be054f7e0f7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_160.asset using Guid(9f55e60ccde37d740a4be054f7e0f7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e8f8658bb8db3ba4bdf159b9b463ef8') in 0.0133267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.534116 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_165.asset
+  artifactKey: Guid(bdccbe0c306f1774b8bab9078325c66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_165.asset using Guid(bdccbe0c306f1774b8bab9078325c66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a863253c21e8d3c2b53bcb6e4e55a79') in 0.0188356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_166.asset
+  artifactKey: Guid(c55c7a175a640034b976601e592db57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_166.asset using Guid(c55c7a175a640034b976601e592db57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36b55fd081bdec2248660ac61fd1db82') in 0.0130312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.368963 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_175.asset
+  artifactKey: Guid(a79452ef5f7cd4348bc7b5aacad8d99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_175.asset using Guid(a79452ef5f7cd4348bc7b5aacad8d99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d476b6ac1c525a49411017ece11689d') in 0.0186883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_179.asset
+  artifactKey: Guid(da6f31d74c497ea49afdf574d574b4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_179.asset using Guid(da6f31d74c497ea49afdf574d574b4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '115a897fdd37dd76f971b047be225329') in 0.013252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018708 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_185.asset
+  artifactKey: Guid(0230e8a04b381944caebb7cc2aebef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_185.asset using Guid(0230e8a04b381944caebb7cc2aebef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb5f4ffb5c5ab941fed9ab2257438388') in 0.0092047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_189.asset
+  artifactKey: Guid(584929989cf0db844a23f68ede84ce41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_189.asset using Guid(584929989cf0db844a23f68ede84ce41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad5e77264ad20779a98f51df2999d613') in 0.0188095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418246 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_195.asset
+  artifactKey: Guid(ca62372364d45fb41b6a0312f877ecb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_195.asset using Guid(ca62372364d45fb41b6a0312f877ecb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '087afb8b0ad7f6aa6c82bb417c625cdc') in 0.0481371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002782 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_203.asset
+  artifactKey: Guid(68a714c44dbcb9b47921131404784150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_203.asset using Guid(68a714c44dbcb9b47921131404784150) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f7b1953ab6b9a2fb38044dd20da395a') in 0.0113926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_210.asset
+  artifactKey: Guid(80dae3d8ad7134e4e993845bdf58b93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_210.asset using Guid(80dae3d8ad7134e4e993845bdf58b93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b4af01997e4b593cfc545f2d5c16b70') in 0.0118077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.367445 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_215.asset
+  artifactKey: Guid(d07ce0068ab6a3e4b8b008c8ed4ce456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_215.asset using Guid(d07ce0068ab6a3e4b8b008c8ed4ce456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b094f8846e455a50f23befc90e313bec') in 0.0287367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024451 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_225.asset
+  artifactKey: Guid(d43430214d130b844906cd93261c0a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_225.asset using Guid(d43430214d130b844906cd93261c0a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2a3c53adad0d459c80c725743984c35') in 0.0050059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_230.asset
+  artifactKey: Guid(9bb541ac9b6502843aa92e37550e4a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_230.asset using Guid(9bb541ac9b6502843aa92e37550e4a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afe3e1992879b1fc35d5121f97768920') in 0.013405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.402729 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_235.asset
+  artifactKey: Guid(bf03c999bb874024ab0a567a7d1cc27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_235.asset using Guid(bf03c999bb874024ab0a567a7d1cc27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09e5c0a4bc75c17ce04d3f063bd0a024') in 0.0195818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_237.asset
+  artifactKey: Guid(738596af02a7d1b4293ee4c4dc0bb147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_237.asset using Guid(738596af02a7d1b4293ee4c4dc0bb147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac6c177d7378cc9b4299585404f67637') in 0.0124213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016455 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_245.asset
+  artifactKey: Guid(78647aa9fae31ee4dbb2afb0ff937ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_245.asset using Guid(78647aa9fae31ee4dbb2afb0ff937ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6690fcc1076fcbde24d0a4e7620e747') in 0.014178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_249.asset
+  artifactKey: Guid(0103f9bf23bdb25479a08dd5b38e47e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_249.asset using Guid(0103f9bf23bdb25479a08dd5b38e47e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf9ae12c4cb4ff30461e1ed93aa41d73') in 0.0107965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028973 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_255.asset
+  artifactKey: Guid(86c5622102a924b4aa682903f57c9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_255.asset using Guid(86c5622102a924b4aa682903f57c9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a3ee3b7397568b0db7d8ccee9cbfb12') in 0.0106022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_259.asset
+  artifactKey: Guid(e703f0d67b467e6479eb6664b60ba861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_259.asset using Guid(e703f0d67b467e6479eb6664b60ba861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '059d5ba12fb69855c956b541132df23e') in 0.0131489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.448569 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_265.asset
+  artifactKey: Guid(f80cf64bfefa75943a0b5e73feae3c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_265.asset using Guid(f80cf64bfefa75943a0b5e73feae3c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cd8a6f4358a4e29e832683076364328') in 0.0152104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_270.asset
+  artifactKey: Guid(fa811f9351409b145b45a6ba7d688de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_270.asset using Guid(fa811f9351409b145b45a6ba7d688de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b4d9b9ce31ae14e7168f24cadb12a5d') in 0.0109017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007626 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_275.asset
+  artifactKey: Guid(998c46ea554cafc42b6aa68a609c0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_275.asset using Guid(998c46ea554cafc42b6aa68a609c0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ef36417d4e416fbe39bdc6568345055') in 0.0110575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_276.asset
+  artifactKey: Guid(e53e3e252f3e5f64e877bc470ef8f4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_276.asset using Guid(e53e3e252f3e5f64e877bc470ef8f4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c1cd83ca4b55c5350b028d9c15d9eca') in 0.0150511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.478435 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_285.asset
+  artifactKey: Guid(880be7c74dc5aae409b7f8d20e906f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_285.asset using Guid(880be7c74dc5aae409b7f8d20e906f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33af61ac5c071f2524d8b3f08152fea5') in 0.0166259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023150 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_295.asset
+  artifactKey: Guid(24f3dae293400e64d8840b05c5cdbced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_295.asset using Guid(24f3dae293400e64d8840b05c5cdbced) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00a63b14f2138e2c55bc314c27fd90ad') in 0.0143683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_299.asset
+  artifactKey: Guid(5027179b766c7aa40a269e1c690895f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_299.asset using Guid(5027179b766c7aa40a269e1c690895f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eff7f15fa7d149a36018778ca4cf19fc') in 0.012538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.400738 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_305.asset
+  artifactKey: Guid(94c0be619085c9a4a8dbcd12c6338f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_305.asset using Guid(94c0be619085c9a4a8dbcd12c6338f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2067eec6c2cc474286087d95cbf8b6b') in 0.014264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_308.asset
+  artifactKey: Guid(bf8fae845de01904580819c51884ec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_308.asset using Guid(bf8fae845de01904580819c51884ec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '907d1796174c78988e1c82d4c74671c2') in 0.0122079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012106 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_315.asset
+  artifactKey: Guid(933312417c320d74caeea2385e8ebd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_315.asset using Guid(933312417c320d74caeea2385e8ebd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '863f4066e369c88d4a10c0bc973b0ad4') in 0.0105978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_319.asset
+  artifactKey: Guid(809b6f316e6cbb1498a59f43b6ddb6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_319.asset using Guid(809b6f316e6cbb1498a59f43b6ddb6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff305da1b25dc608d5d4299f95aaa11d') in 0.0127503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.440527 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_325.asset
+  artifactKey: Guid(0ecc3e19d0dd1264e82890a78486fac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_325.asset using Guid(0ecc3e19d0dd1264e82890a78486fac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d2d0980d813d1b7c5e2104e2be4e82a') in 0.0146706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_329.asset
+  artifactKey: Guid(c5296ee33f7929144b6853eb30da884e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_329.asset using Guid(c5296ee33f7929144b6853eb30da884e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '032c19bb23c69efee20ad4d640c72823') in 0.0116938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017038 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_335.asset
+  artifactKey: Guid(9a4bc49419625a64db984caa384a0f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_335.asset using Guid(9a4bc49419625a64db984caa384a0f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73638c859439e72b02086133d263eb66') in 0.0192692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_338.asset
+  artifactKey: Guid(4708f873bc67e3e45a33d3911c65bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_338.asset using Guid(4708f873bc67e3e45a33d3911c65bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72bb5a3783ed7fa9c4b94ff006103602') in 0.0112551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433046 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_345.asset
+  artifactKey: Guid(944df6ef87503494b825d8291ff8c7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_345.asset using Guid(944df6ef87503494b825d8291ff8c7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1afe1e235e4cfdba489875d805daacb6') in 0.0175462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_350.asset
+  artifactKey: Guid(2e5d804cfc9608f47bc952e3c1fce527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_350.asset using Guid(2e5d804cfc9608f47bc952e3c1fce527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e045fe478ef720ff7f2b8ee908f21b9') in 0.0111012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.334500 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_355.asset
+  artifactKey: Guid(9072ad068bd4c7840a2d4b092db97060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_355.asset using Guid(9072ad068bd4c7840a2d4b092db97060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fdfefedde41e2d6d502130e6ad92de5') in 0.1002069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_363.asset
+  artifactKey: Guid(600c62acdb1a8a4459f74fe879852095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_363.asset using Guid(600c62acdb1a8a4459f74fe879852095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '086941b0ba27fbcfff36bb17f6b37167') in 0.1328635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_377.asset
+  artifactKey: Guid(83d5d759144a8344781d266e7ec8f99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_377.asset using Guid(83d5d759144a8344781d266e7ec8f99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f52ed14e9682434a147bb3f69be5d241') in 0.028629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_362.asset
+  artifactKey: Guid(a7df658b042b9a1409ea4e35b408c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_362.asset using Guid(a7df658b042b9a1409ea4e35b408c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0fe15d3b0c56f17d19f119ada0e87cd') in 0.0430021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_368.asset
+  artifactKey: Guid(4033c604f55249847a621605658c4751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_368.asset using Guid(4033c604f55249847a621605658c4751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c3b3ea49201de03408342c38f9f2d9b') in 0.0128504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_367.asset
+  artifactKey: Guid(ccc008e79a1edde46a6517a932ad2577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_367.asset using Guid(ccc008e79a1edde46a6517a932ad2577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9cce16158c4441a6d078a645b2f6a75') in 0.0124813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165596 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_385.asset
+  artifactKey: Guid(54de2431055e57e4e893153206f61ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_385.asset using Guid(54de2431055e57e4e893153206f61ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5edb8ebc7ecbce27fab4eca54bdb7d2') in 0.0182923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_388.asset
+  artifactKey: Guid(8bb4aafa55b32454c81657c6e28d769e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_388.asset using Guid(8bb4aafa55b32454c81657c6e28d769e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c48c7430d2f11c1cc0d0b4f953731cb') in 0.0147937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015157 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_395.asset
+  artifactKey: Guid(e6870b6e0f7addf46abd23c173d250bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_395.asset using Guid(e6870b6e0f7addf46abd23c173d250bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38b935b3fec7a33d06158b86d30a907a') in 0.0205407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_396.asset
+  artifactKey: Guid(116bbfa7e541dd04a9d6cd51a14e57d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_396.asset using Guid(116bbfa7e541dd04a9d6cd51a14e57d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e18484aba59f1d69e8b25faba712d83') in 0.0153276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.386101 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_405.asset
+  artifactKey: Guid(b393c5432d5882547b62aa2b994bf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_405.asset using Guid(b393c5432d5882547b62aa2b994bf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75afc0f61ebdb9a54897d95009d71572') in 0.0209734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_407.asset
+  artifactKey: Guid(f8bf6db257c3d3148914718bb2a4c345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_407.asset using Guid(f8bf6db257c3d3148914718bb2a4c345) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '078e47de04bc9c371f0556da57f8a249') in 0.0123069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015058 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_415.asset
+  artifactKey: Guid(48cb97ae270c86844a3a4f73460a6d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_415.asset using Guid(48cb97ae270c86844a3a4f73460a6d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d959d371656a9ec0828284f2226e020') in 0.0188109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_419.asset
+  artifactKey: Guid(3d16f58ecd6b80a4d96d6411452e9510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_419.asset using Guid(3d16f58ecd6b80a4d96d6411452e9510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97bd4a25d8486acf96df78145f4fac4d') in 0.012736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345574 seconds.
+  path: Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_425.asset
+  artifactKey: Guid(1d4ad1aa14e15b442b8e64abae7fb8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Legacy Pack - Village/Environment/Environment Tiles/Tiles_425.asset using Guid(1d4ad1aa14e15b442b8e64abae7fb8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b1bc560464c5a4fc7b2cba377f15b49') in 0.0148998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
